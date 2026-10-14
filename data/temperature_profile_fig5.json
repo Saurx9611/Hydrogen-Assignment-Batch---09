@@ -1,0 +1,28 @@
+{
+  "provenance": {
+    "source": "Jayah, T.H., Aye, L., Fuller, R.J., Stewart, D.F. (2003). Biomass and Bioenergy 25(5), 459-469",
+    "figure": "Figure 5 (p. 465)",
+    "description": "Comparison of measured and predicted temperatures along axis of gasification zone for air-fuel ratio of 2.20 (2.5 cm chips)"
+  },
+  "air_fuel_ratio": 2.20,
+  "chip_size_cm": 2.5,
+  "measured_experimental_points": [
+    {"z_cm": 2.9, "T_K": 1260.0},
+    {"z_cm": 4.8, "T_K": 1220.0},
+    {"z_cm": 7.8, "T_K": 1280.0},
+    {"z_cm": 11.8, "T_K": 1180.0},
+    {"z_cm": 16.5, "T_K": 1170.0},
+    {"z_cm": 19.8, "T_K": 1000.0},
+    {"z_cm": 24.8, "T_K": 830.0}
+  ],
+  "model_reported_curve_sample": [
+    {"z_cm": 0.0, "T_K": 1600.0},
+    {"z_cm": 2.0, "T_K": 1380.0},
+    {"z_cm": 4.0, "T_K": 1250.0},
+    {"z_cm": 6.0, "T_K": 1170.0},
+    {"z_cm": 10.0, "T_K": 1090.0},
+    {"z_cm": 15.0, "T_K": 1020.0},
+    {"z_cm": 20.0, "T_K": 960.0},
+    {"z_cm": 25.0, "T_K": 910.0}
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "table5_calibration": {
+    "dataset": "Table 5 (2.5 cm chips calibration)",
+    "comparison": [
+      {
+        "Species": "CO",
+        "Measured (%)": 19.1,
+        "Paper Predicted (%)": 18.3,
+        "Our Simulation (%)": 19.66,
+        "Abs Error (%)": 0.56,
+        "Rel Error (%)": 2.94
+      },
+      {
+        "Species": "H2",
+        "Measured (%)": 15.5,
+        "Paper Predicted (%)": 16.4,
+        "Our Simulation (%)": 17.46,
+        "Abs Error (%)": 1.96,
+        "Rel Error (%)": 12.64
+      },
+      {
+        "Species": "CO2",
+        "Measured (%)": 11.4,
+        "Paper Predicted (%)": 11.1,
+        "Our Simulation (%)": 10.99,
+        "Abs Error (%)": -0.41,
+        "Rel Error (%)": -3.61
+      },
+      {
+        "Species": "CH4",
+        "Measured (%)": 1.1,
+        "Paper Predicted (%)": 1.1,
+        "Our Simulation (%)": 1.15,
+        "Abs Error (%)": 0.05,
+        "Rel Error (%)": 4.32
+      },
+      {
+        "Species": "N2",
+        "Measured (%)": 52.9,
+        "Paper Predicted (%)": 53.2,
+        "Our Simulation (%)": 50.74,
+        "Abs Error (%)": -2.16,
+        "Rel Error (%)": -4.08
+      }
+    ],
+    "MAE_percent": 1.028,
+    "RMSE_percent": 1.341,
+    "terminal_gas_flow_m3_h": 49.35,
+    "terminal_efficiency_percent": 64.66
+  },
+  "table3_nine_runs": {
+    "dataset": "Table 3 (9 Experimental Runs)",
+    "runs_table": [
+      {
+        "Run": 1,
+        "Chip Size (cm)": 3.3,
+        "MC (% db)": 18.5,
+        "AFR": 2.03,
+        "CO_meas": 19.6,
+        "CO_sim": 20.3,
+        "H2_meas": 17.2,
+        "H2_sim": 19.22,
+        "CO2_meas": 9.9,
+        "CO2_sim": 10.83,
+        "CH4_meas": 1.4,
+        "CH4_sim": 1.1,
+        "N2_meas": 51.9,
+        "N2_sim": 48.55,
+        "Flow_meas (m3/h)": 52.4,
+        "Flow_sim (m3/h)": 47.59
+      },
+      {
+        "Run": 2,
+        "Chip Size (cm)": 3.3,
+        "MC (% db)": 16.0,
+        "AFR": 2.2,
+        "CO_meas": 20.2,
+        "CO_sim": 19.2,
+        "H2_meas": 18.3,
+        "H2_sim": 17.19,
+        "CO2_meas": 9.7,
+        "CO2_sim": 11.2,
+        "CH4_meas": 1.1,
+        "CH4_sim": 1.16,
+        "N2_meas": 50.7,
+        "N2_sim": 51.25,
+        "Flow_meas (m3/h)": 57.7,
+        "Flow_sim (m3/h)": 48.86
+      },
+      {
+        "Run": 3,
+        "Chip Size (cm)": 3.3,
+        "MC (% db)": 14.7,
+        "AFR": 2.37,
+        "CO_meas": 19.4,
+        "CO_sim": 18.04,
+        "H2_meas": 17.2,
+        "H2_sim": 15.44,
+        "CO2_meas": 9.7,
+        "CO2_sim": 11.67,
+        "CH4_meas": 1.1,
+        "CH4_sim": 1.21,
+        "N2_meas": 52.6,
+        "N2_sim": 53.63,
+        "Flow_meas (m3/h)": 59.7,
+        "Flow_sim (m3/h)": 50.29
+      },
+      {
+        "Run": 4,
+        "Chip Size (cm)": 4.4,
+        "MC (% db)": 16.0,
+        "AFR": 1.96,
+        "CO_meas": 18.4,
+        "CO_sim": 20.65,
+        "H2_meas": 17.0,
+        "H2_sim": 19.18,
+        "CO2_meas": 10.6,
+        "CO2_sim": 10.53,
+        "CH4_meas": 1.3,
+        "CH4_sim": 1.1,
+        "N2_meas": 52.7,
+        "N2_sim": 48.54,
+        "Flow_meas (m3/h)": 53.6,
+        "Flow_sim (m3/h)": 45.96
+      },
+      {
+        "Run": 5,
+        "Chip Size (cm)": 4.4,
+        "MC (% db)": 15.2,
+        "AFR": 2.12,
+        "CO_meas": 19.7,
+        "CO_sim": 19.45,
+        "H2_meas": 13.2,
+        "H2_sim": 17.39,
+        "CO2_meas": 10.8,
+        "CO2_sim": 11.02,
+        "CH4_meas": 1.3,
+        "CH4_sim": 1.15,
+        "N2_meas": 55.0,
+        "N2_sim": 50.99,
+        "Flow_meas (m3/h)": 62.1,
+        "Flow_sim (m3/h)": 47.33
+      },
+      {
+        "Run": 6,
+        "Chip Size (cm)": 4.4,
+        "MC (% db)": 14.0,
+        "AFR": 2.29,
+        "CO_meas": 18.9,
+        "CO_sim": 18.23,
+        "H2_meas": 12.5,
+        "H2_sim": 15.57,
+        "CO2_meas": 8.5,
+        "CO2_sim": 11.52,
+        "CH4_meas": 1.2,
+        "CH4_sim": 1.21,
+        "N2_meas": 59.1,
+        "N2_sim": 53.47,
+        "Flow_meas (m3/h)": 62.5,
+        "Flow_sim (m3/h)": 48.75
+      },
+      {
+        "Run": 7,
+        "Chip Size (cm)": 5.5,
+        "MC (% db)": 14.7,
+        "AFR": 1.86,
+        "CO_meas": 19.1,
+        "CO_sim": 21.27,
+        "H2_meas": 15.5,
+        "H2_sim": 19.78,
+        "CO2_meas": 11.4,
+        "CO2_sim": 10.18,
+        "CH4_meas": 1.1,
+        "CH4_sim": 1.08,
+        "N2_meas": 52.9,
+        "N2_sim": 47.7,
+        "Flow_meas (m3/h)": 51.9,
+        "Flow_sim (m3/h)": 44.4
+      },
+      {
+        "Run": 8,
+        "Chip Size (cm)": 5.5,
+        "MC (% db)": 13.8,
+        "AFR": 2.04,
+        "CO_meas": 22.1,
+        "CO_sim": 19.87,
+        "H2_meas": 12.7,
+        "H2_sim": 17.66,
+        "CO2_meas": 10.5,
+        "CO2_sim": 10.75,
+        "CH4_meas": 1.3,
+        "CH4_sim": 1.14,
+        "N2_meas": 53.4,
+        "N2_sim": 50.58,
+        "Flow_meas (m3/h)": 62.5,
+        "Flow_sim (m3/h)": 45.91
+      },
+      {
+        "Run": 9,
+        "Chip Size (cm)": 5.5,
+        "MC (% db)": 12.5,
+        "AFR": 2.36,
+        "CO_meas": 19.1,
+        "CO_sim": 17.43,
+        "H2_meas": 13.0,
+        "H2_sim": 14.33,
+        "CO2_meas": 10.7,
+        "CO2_sim": 11.79,
+        "CH4_meas": 1.2,
+        "CH4_sim": 1.25,
+        "N2_meas": 56.0,
+        "N2_sim": 55.21,
+        "Flow_meas (m3/h)": 63.5,
+        "Flow_sim (m3/h)": 48.65
+      }
+    ],
+    "statistical_summary": {
+      "CO": {
+        "MAE": 1.366,
+        "RMSE": 1.542
+      },
+      "H2": {
+        "MAE": 2.766,
+        "RMSE": 3.07
+      },
+      "CO2": {
+        "MAE": 1.141,
+        "RMSE": 1.449
+      },
+      "CH4": {
+        "MAE": 0.118,
+        "RMSE": 0.148
+      },
+      "N2": {
+        "MAE": 3.061,
+        "RMSE": 3.549
+      }
+    }
+  },
+  "fig5_temperature": {
+    "dataset": "Figure 5 (Axial Temperature Profile)",
+    "comparison": [
+      {
+        "z_cm": 2.9,
+        "T_meas_K": 1260.0,
+        "T_sim_K": 1501.4,
+        "Abs_Error_K": 241.4,
+        "Rel_Error_pct": 19.15
+      },
+      {
+        "z_cm": 4.8,
+        "T_meas_K": 1220.0,
+        "T_sim_K": 1446.8,
+        "Abs_Error_K": 226.8,
+        "Rel_Error_pct": 18.59
+      },
+      {
+        "z_cm": 7.8,
+        "T_meas_K": 1280.0,
+        "T_sim_K": 1378.4,
+        "Abs_Error_K": 98.4,
+        "Rel_Error_pct": 7.68
+      },
+      {
+        "z_cm": 11.8,
+        "T_meas_K": 1180.0,
+        "T_sim_K": 1311.1,
+        "Abs_Error_K": 131.1,
+        "Rel_Error_pct": 11.11
+      },
+      {
+        "z_cm": 16.5,
+        "T_meas_K": 1170.0,
+        "T_sim_K": 1252.0,
+        "Abs_Error_K": 82.0,
+        "Rel_Error_pct": 7.01
+      },
+      {
+        "z_cm": 19.8,
+        "T_meas_K": 1000.0,
+        "T_sim_K": 1217.5,
+        "Abs_Error_K": 217.5,
+        "Rel_Error_pct": 21.75
+      },
+      {
+        "z_cm": 24.8,
+        "T_meas_K": 830.0,
+        "T_sim_K": 1171.0,
+        "Abs_Error_K": 341.0,
+        "Rel_Error_pct": 41.09
+      }
+    ],
+    "MAE_K": 191.2,
+    "RMSE_K": 209.4
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "carbon_balance": {
+    "carbon_in_mol_s": 0.21766,
+    "carbon_out_mol_s": 0.21766,
+    "discrepancy_percent": 0.0
+  },
+  "nitrogen_balance": {
+    "nitrogen_in_mol_s": 0.31033,
+    "nitrogen_out_mol_s": 0.31033,
+    "discrepancy_percent": 0.0
+  },
+  "energy_balance_reduction_zone": {
+    "enthalpy_in_watts": 32143.7,
+    "enthalpy_out_watts": 21678.9,
+    "wall_heat_loss_watts": 2873.9,
+    "endothermic_chemical_enthalpy_absorbed_watts": 7590.9
+  }
+}

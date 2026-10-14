@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "source": "Jayah, T.H., Aye, L., Fuller, R.J., Stewart, D.F. (2003). Biomass and Bioenergy 25(5), 459-469",
+    "table": "Table 5 (p. 465)",
+    "description": "Comparison of predicted and measured gas composition for 2.5-cm chips (Run No. 7 calibration run, AFR = 2.20)"
+  },
+  "operating_conditions": {
+    "chip_size_cm": 2.5,
+    "air_fuel_ratio": 2.20,
+    "moisture_content_percent_db": 14.7,
+    "throat_diameter_m": 0.10,
+    "gasification_zone_length_cm": 22.0
+  },
+  "gas_composition_dry_vol_percent": {
+    "CO": {
+      "predicted": 18.3,
+      "measured": 19.1
+    },
+    "H2": {
+      "predicted": 16.4,
+      "measured": 15.5
+    },
+    "CO2": {
+      "predicted": 11.1,
+      "measured": 11.4
+    },
+    "N2": {
+      "predicted": 53.2,
+      "measured": 52.9
+    },
+    "CH4": {
+      "predicted": 1.1,
+      "measured": 1.1,
+      "note": "Assumed / tuned in paper calibration"
+    }
+  }
+}

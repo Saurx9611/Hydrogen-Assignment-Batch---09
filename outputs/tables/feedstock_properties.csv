@@ -1,0 +1,15 @@
+Category,Parameter,Value,Unit,Provenance
+Proximate,Volatile Matter (VM),80.1,% dry basis,Jayah et al. (2003) Table 1
+Proximate,Fixed Carbon (FC),19.2,% dry basis,Jayah et al. (2003) Table 1
+Proximate,Ash,0.7,% dry basis,Jayah et al. (2003) Table 1
+Ultimate,Carbon (C),50.6,% dry basis,Jayah et al. (2003) Table 2
+Ultimate,Oxygen (O),42.0,% dry basis,Jayah et al. (2003) Table 2
+Ultimate,Hydrogen (H),6.5,% dry basis,Jayah et al. (2003) Table 2
+Ultimate,Nitrogen (N),0.2,% dry basis,Jayah et al. (2003) Table 2
+Ultimate,Ash,0.7,% dry basis,Jayah et al. (2003) Table 2
+Energetics,Higher Heating Value (HHV),19.6,MJ/kg dry,Jayah et al. (2003) p. 463
+Energetics,Lower Heating Value (LHV),18.17,MJ/kg dry,Calculated via ISO 1928
+Physical,Bulk Density,320.0,kg/m3,Jayah et al. (2003) p. 463
+Physical,Solid Wood Density,650.0,kg/m3,Standard rubber wood
+Physical,Porous Char Density,250.0,kg/m3,Literature mean
+Stoichiometry,Stoichiometric AFR,5.68,kg air/kg dry,Chemical balance

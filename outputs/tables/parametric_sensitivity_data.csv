@@ -1,0 +1,26 @@
+Parameter_Type,Parameter_Value,Unit,Syngas_LHV_MJ_Nm3,Cold_Gas_Efficiency_pct,Exit_Temp_K,Gas_Flow_Nm3_h
+Air_Fuel_Ratio,1.8,kg air/kg dry,5.563,69.48,,
+Air_Fuel_Ratio,1.9,kg air/kg dry,5.356,68.29,,
+Air_Fuel_Ratio,2.0,kg air/kg dry,5.156,67.09,,
+Air_Fuel_Ratio,2.1,kg air/kg dry,4.963,65.88,,
+Air_Fuel_Ratio,2.2,kg air/kg dry,4.777,64.66,,
+Air_Fuel_Ratio,2.3,kg air/kg dry,4.596,63.43,,
+Air_Fuel_Ratio,2.4,kg air/kg dry,4.422,62.19,,
+Air_Fuel_Ratio,2.5,kg air/kg dry,4.253,60.94,,
+Air_Fuel_Ratio,2.6,kg air/kg dry,4.09,59.68,,
+Moisture_Content,5.0,% d.b.,4.723,,1199.5,
+Moisture_Content,7.5,% d.b.,4.737,,1198.7,
+Moisture_Content,10.0,% d.b.,4.751,,1197.9,
+Moisture_Content,12.5,% d.b.,4.764,,1197.1,
+Moisture_Content,15.0,% d.b.,4.778,,1196.3,
+Moisture_Content,17.5,% d.b.,4.792,,1195.5,
+Moisture_Content,20.0,% d.b.,4.806,,1194.8,
+Moisture_Content,22.5,% d.b.,4.82,,1194.0,
+Moisture_Content,25.0,% d.b.,4.835,,1193.3,
+Biomass_Feed_Rate,12.0,kg/h,,64.84,,32.09
+Biomass_Feed_Rate,14.0,kg/h,,64.88,,37.34
+Biomass_Feed_Rate,16.0,kg/h,,64.82,,42.58
+Biomass_Feed_Rate,18.0,kg/h,,64.7,,47.79
+Biomass_Feed_Rate,20.0,kg/h,,64.54,,52.98
+Biomass_Feed_Rate,22.0,kg/h,,64.35,,58.15
+Biomass_Feed_Rate,24.0,kg/h,,64.15,,63.3

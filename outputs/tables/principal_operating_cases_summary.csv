@@ -1,0 +1,12 @@
+Case_Description,Chip_Size_cm,MC_pct_db,Air_Fuel_Ratio,L_hearth_cm,CO_vol_pct,H2_vol_pct,CO2_vol_pct,CH4_vol_pct,N2_vol_pct,Gas_Flow_Nm3_h,Syngas_LHV_MJ_Nm3,Cold_Gas_Efficiency_pct,Exit_Temp_K,Carbon_Conversion_pct
+Baseline Calibration (NERD Hearth 22 cm),2.5,14.7,2.2,22.0,19.66,17.46,10.99,1.15,50.74,49.35,4.78,64.66,1196.4,71.91
+"Optimized Design (Extended Hearth 33 cm, 3cm chips)",3.0,15.0,2.2,33.0,18.63,18.41,11.81,1.13,50.03,50.05,4.74,65.11,1112.4,73.55
+Experimental Validation Run 1,3.3,18.5,2.03,22.0,20.3,19.22,10.83,1.1,48.55,47.59,5.03,56.8,,
+Experimental Validation Run 2,3.3,16.0,2.2,22.0,19.2,17.19,11.2,1.16,51.25,48.86,4.69,53.8,,
+Experimental Validation Run 3,3.3,14.7,2.37,22.0,18.04,15.44,11.67,1.21,53.63,50.29,4.38,50.5,,
+Experimental Validation Run 4,4.4,16.0,1.96,22.0,20.65,19.18,10.53,1.1,48.54,45.96,5.07,57.8,,
+Experimental Validation Run 5,4.4,15.2,2.12,22.0,19.45,17.39,11.02,1.15,50.99,47.33,4.74,54.5,,
+Experimental Validation Run 6,4.4,14.0,2.29,22.0,18.23,15.57,11.52,1.21,53.47,48.75,4.41,51.0,,
+Experimental Validation Run 7,5.5,14.7,1.86,22.0,21.27,19.78,10.18,1.08,47.7,44.4,5.21,59.6,,
+Experimental Validation Run 8,5.5,13.8,2.04,22.0,19.87,17.66,10.75,1.14,50.58,45.91,4.82,55.6,,
+Experimental Validation Run 9,5.5,12.5,2.36,22.0,17.43,14.33,11.79,1.25,55.21,48.65,4.19,48.8,,
