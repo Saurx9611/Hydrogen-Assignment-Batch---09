@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "source": "Jayah, T.H., Aye, L., Fuller, R.J., Stewart, D.F. (2003). Biomass and Bioenergy 25(5), 459-469",
+    "tables": ["Table 1 (p. 463)", "Table 2 (p. 463)"],
+    "notes": "Determined by a commercial analytical company for rubber wood (Hevea brasiliensis)"
+  },
+  "feedstock_name": "Rubber wood (Hevea brasiliensis)",
+  "proximate_analysis_percent_db": {
+    "volatile_matter": 80.1,
+    "fixed_carbon": 19.2,
+    "ash_content": 0.7
+  },
+  "ultimate_analysis_percent_db": {
+    "carbon": 50.6,
+    "hydrogen": 6.5,
+    "nitrogen": 0.2,
+    "ash_content": 0.7,
+    "oxygen_by_difference": 42.0
+  },
+  "heating_value": {
+    "hhv_mj_per_kg_db": 19.6,
+    "notes": "Measured value, 6% higher than figure reported by Hoi et al. (1992)"
+  },
+  "physical_properties": {
+    "bulk_density_kg_per_m3_min": 314.0,
+    "bulk_density_kg_per_m3_max": 330.0,
+    "bulk_density_nominal": 320.0,
+    "solid_density_nominal": 650.0
+  },
+  "moisture_content_percent_db": {
+    "logs_raw_range": [54.0, 100.0],
+    "experimental_runs_range": [12.5, 18.5],
+    "nominal_baseline": 15.0
+  },
+  "chip_sizes_tested_cm": [2.5, 3.3, 4.4, 5.5],
+  "chip_sizes_simulated_cm": [1.0, 3.0, 5.0]
+}

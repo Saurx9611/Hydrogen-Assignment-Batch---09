@@ -1,0 +1,16 @@
+Parameter,Value,Eff_22cm_model,Eff_22cm_Jayah,Opt_length_model_cm,Opt_length_Jayah_cm,Eff_opt_model,Eff_opt_Jayah,Wall_loss_22cm_pct,U_wall_W_m2K
+chip_size_cm,1.0,63.65,57.2,9.9,24.0,63.33,57.3,12.81,114.4
+chip_size_cm,3.0,54.62,56.0,11.4,32.0,54.35,56.3,14.04,114.4
+chip_size_cm,5.0,50.46,54.7,12.0,33.0,50.21,55.2,14.58,114.4
+moisture_content_percent_db,0.0,62.78,57.8,10.8,31.0,62.46,58.1,14.16,114.4
+moisture_content_percent_db,15.0,54.62,56.0,11.4,32.0,54.35,56.3,14.04,114.4
+moisture_content_percent_db,30.0,47.12,54.2,11.7,35.0,46.88,54.5,13.8,114.4
+heat_loss_percent_input_energy,5.0,66.1,73.8,21.9,29.0,66.09,74.2,5.0,35.4
+heat_loss_percent_input_energy,10.0,58.82,62.8,14.5,28.0,58.53,63.2,10.0,75.6
+heat_loss_percent_input_energy,15.0,53.74,51.5,10.8,25.0,53.48,51.7,15.0,124.9
+throat_angle_degrees,30.0,57.33,56.6,7.8,28.0,57.05,57.4,20.89,114.4
+throat_angle_degrees,61.0,54.62,56.0,11.4,24.0,54.35,56.2,14.04,114.4
+throat_angle_degrees,90.0,51.64,55.1,17.6,19.0,51.47,55.1,7.82,114.4
+air_temperature_k,300.0,54.62,56.0,11.4,,54.35,,14.04,114.4
+air_temperature_k,450.0,59.99,56.5,11.5,,59.69,,14.21,114.4
+air_temperature_k,600.0,65.93,,11.5,,65.6,,14.33,114.4

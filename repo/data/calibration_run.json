@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "source": "Jayah, T.H., Aye, L., Fuller, R.J., Stewart, D.F. (2003). Biomass and Bioenergy 25(5), 459-469",
+    "table": "Table 5 (p. 465)",
+    "description": "Table 5: predicted (Jayah model) and measured dry gas composition for 2.5 cm chips. The text of Section 7 identifies this as Run No. 7; the measured values are identical to Run 7 in Table 3."
+  },
+  "operating_conditions": {
+    "chip_size_cm": 2.5,
+    "air_fuel_ratio": 1.86,
+    "moisture_content_percent_db": 14.7,
+    "gasification_zone_length_cm": 22.0,
+    "note": "AFR and moisture taken from Run 7 (Table 3) because the paper identifies Table 5 as Run 7; chip size 2.5 cm as stated in the Table 5 caption (Table 3 lists Run 7 as 5.5 cm - an inconsistency in the paper). Dry feed rate 18.6 kg/h from Table 4 (assumed)."
+  },
+  "gas_composition_dry_vol_percent": {
+    "CO": {
+      "predicted": 18.3,
+      "measured": 19.1
+    },
+    "H2": {
+      "predicted": 16.4,
+      "measured": 15.5
+    },
+    "CO2": {
+      "predicted": 11.1,
+      "measured": 11.4
+    },
+    "N2": {
+      "predicted": 53.2,
+      "measured": 52.9
+    },
+    "CH4": {
+      "predicted": 1.1,
+      "measured": 1.1,
+      "note": "Assumed in Jayah's model; imposed (1.2 % at throat) in this model as well - not a prediction"
+    }
+  }
+}

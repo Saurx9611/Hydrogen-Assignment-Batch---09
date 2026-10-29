@@ -1,0 +1,14 @@
+Category,Parameter,Value,Unit,Source
+Proximate,Volatile matter,80.1,% d.b.,Jayah Table 1
+Proximate,Fixed carbon,19.2,% d.b.,Jayah Table 1
+Proximate,Ash,0.7,% d.b.,Jayah Table 1
+Ultimate,C,50.6,% d.b.,Jayah Table 2
+Ultimate,H,6.5,% d.b.,Jayah Table 2
+Ultimate,N,0.2,% d.b.,Jayah Table 2
+Ultimate,O (by difference),42.0,% d.b.,Jayah Table 2
+Ultimate,Ash,0.7,% d.b.,Jayah Table 2
+Energy,HHV,19.6,MJ/kg dry,Jayah p. 463
+Energy,LHV,18.17,MJ/kg dry,calculated
+Physical,Bulk density,314-330,kg/m3,Jayah p. 463
+Physical,Char particle density,250.0,kg/m3,assumption
+Stoichiometry,Stoichiometric air,6.22,kg/kg dry,calculated

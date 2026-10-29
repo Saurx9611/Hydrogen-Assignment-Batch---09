@@ -1,0 +1,784 @@
+{
+  "parameters": {
+    "u_wall_w_m2_k": 114.4,
+    "eta_boudouard": 0.474,
+    "eta_water_gas": 0.1416,
+    "a_wgs": 0.00278,
+    "bed_void_fraction": 0.48,
+    "throat_t_anchor_k": 1604.0
+  },
+  "feedstock_derived": {
+    "lhv": 18.171,
+    "afr_stoich": 6.225,
+    "formula": "CH1.53O0.62N0.0034"
+  },
+  "reference_case_1d": {
+    "conditions": {
+      "feed_rate_dry_kg_h": 18.6,
+      "air_flow_rate_kg_h": 55.6,
+      "air_fuel_ratio": 2.2,
+      "moisture_content_db": 0.147,
+      "chip_size_m": 0.025,
+      "t_ambient_k": 300.0,
+      "t_air_in_k": 300.0,
+      "pressure_pa": 101325.0,
+      "heat_loss_fraction": 0.128,
+      "throat_heat_loss_fraction": 0.0,
+      "throat_t_anchor_k": 1604.0,
+      "throat_ref_afr": 2.2,
+      "throat_ref_mc_db": 0.147,
+      "throat_ref_t_air_k": 300.0,
+      "u_wall_w_m2_k": 114.4,
+      "bed_void_fraction": 0.48
+    },
+    "T_throat_K": 1604.0,
+    "T_adiabatic_mixed_K": 1345.1,
+    "T_s0_K": 1554.0,
+    "T_exit_K": 838.5,
+    "Ts_exit_K": 839.4,
+    "T_at": {
+      "z2": 1474.4,
+      "z5": 1332.2,
+      "z10": 1172.2,
+      "z15": 1033.6,
+      "z22": 838.5,
+      "z26": 732.7
+    },
+    "dTgs_max_K": 155.1,
+    "z_dTgs_below_10K_cm": 7.6,
+    "exit_dry": {
+      "CO": 21.3,
+      "H2": 13.49,
+      "CO2": 9.03,
+      "CH4": 1.05,
+      "N2": 55.13
+    },
+    "throat_dry": {
+      "CO": 13.74,
+      "H2": 9.24,
+      "CO2": 12.59,
+      "CH4": 1.2,
+      "N2": 63.24
+    },
+    "h2o_wet_in": 23.61,
+    "h2o_wet_out": 17.7,
+    "Xc_exit_percent": 50.3,
+    "z_half_conversion_cm": 2.39,
+    "dp_exit_cm": 1.98,
+    "gas_flow_nm3_h": 45.42,
+    "LHV_MJ_Nm3": 4.519,
+    "CGE_percent": 56.3,
+    "wall_loss_kW": 14.01,
+    "wall_loss_percent": 13.84,
+    "energy_input_kW": 101.27,
+    "sensible_drop_kW": 19.85,
+    "wall_share_of_sensible_drop_percent": 70.6
+  },
+  "base_case_T_at_12cm_K": 1129.0,
+  "two_d": {
+    "n_cells": 12,
+    "n_z": 111,
+    "stations": {
+      "z5": {
+        "T_axis": 1447.8,
+        "T_wall_cell": 1249.7,
+        "CO_axis": 23.37,
+        "CO_wall_cell": 18.89,
+        "H2_axis": 14.63,
+        "H2_wall_cell": 12.14,
+        "Xc_axis": 89.5,
+        "Xc_wall_cell": 28.2
+      },
+      "z11": {
+        "T_axis": 1364.6,
+        "T_wall_cell": 965.7,
+        "CO_axis": 24.81,
+        "CO_wall_cell": 19.91,
+        "H2_axis": 15.42,
+        "H2_wall_cell": 12.7,
+        "Xc_axis": 99.8,
+        "Xc_wall_cell": 29.9
+      },
+      "z22": {
+        "T_axis": 1292.3,
+        "T_wall_cell": 558.0,
+        "CO_axis": 25.4,
+        "CO_wall_cell": 20.45,
+        "H2_axis": 15.74,
+        "H2_wall_cell": 13.01,
+        "Xc_axis": 99.8,
+        "Xc_wall_cell": 29.9
+      }
+    },
+    "mixed_exit_dry": {
+      "CO": 22.76,
+      "H2": 14.29,
+      "CO2": 8.34,
+      "CH4": 1.02,
+      "N2": 53.59
+    },
+    "mixed_T_exit_K": 966.5,
+    "wall_loss_kW": 10.54
+  },
+  "calibration": {
+    "dataset": "Table 5 (calibration run; used to fit eta_boudouard and eta_water_gas)",
+    "conditions": {
+      "chip_size_cm": 2.5,
+      "air_fuel_ratio": 1.86,
+      "moisture_content_percent_db": 14.7,
+      "gasification_zone_length_cm": 22.0,
+      "note": "AFR and moisture taken from Run 7 (Table 3) because the paper identifies Table 5 as Run 7; chip size 2.5 cm as stated in the Table 5 caption (Table 3 lists Run 7 as 5.5 cm - an inconsistency in the paper). Dry feed rate 18.6 kg/h from Table 4 (assumed)."
+    },
+    "MAE_percent": 0.43,
+    "RMSE_percent": 0.533,
+    "Jayah_MAE_percent": 0.46,
+    "Jayah_RMSE_percent": 0.571,
+    "exit_gas_T_K": 787.1,
+    "throat_T_K": 1422.4,
+    "throat_T_adiabatic_mixed_K": 1163.5,
+    "gas_flow_nm3_h": 39.37,
+    "cold_gas_efficiency_percent": 48.14,
+    "char_conversion_percent": 17.02,
+    "wall_loss_percent": 12.8,
+    "rows": [
+      {
+        "Species": "CO",
+        "Measured (%)": 19.1,
+        "Jayah model (%)": 18.3,
+        "This model (%)": 18.7,
+        "Abs error (% pts)": -0.4,
+        "Rel error (%)": -2.1,
+        "Jayah abs error (% pts)": -0.8
+      },
+      {
+        "Species": "H2",
+        "Measured (%)": 15.5,
+        "Jayah model (%)": 16.4,
+        "This model (%)": 15.65,
+        "Abs error (% pts)": 0.15,
+        "Rel error (%)": 1.0,
+        "Jayah abs error (% pts)": 0.9
+      },
+      {
+        "Species": "CO2",
+        "Measured (%)": 11.4,
+        "Jayah model (%)": 11.1,
+        "This model (%)": 10.72,
+        "Abs error (% pts)": -0.68,
+        "Rel error (%)": -5.9,
+        "Jayah abs error (% pts)": -0.3
+      },
+      {
+        "Species": "CH4",
+        "Measured (%)": 1.1,
+        "Jayah model (%)": 1.1,
+        "This model (%)": 1.14,
+        "Abs error (% pts)": 0.04,
+        "Rel error (%)": 3.7,
+        "Jayah abs error (% pts)": 0.0
+      },
+      {
+        "Species": "N2",
+        "Measured (%)": 52.9,
+        "Jayah model (%)": 53.2,
+        "This model (%)": 53.78,
+        "Abs error (% pts)": 0.88,
+        "Rel error (%)": 1.7,
+        "Jayah abs error (% pts)": 0.3
+      }
+    ]
+  },
+  "nine_runs": {
+    "stats": {
+      "CO": {
+        "n": 9,
+        "MAE": 1.4222222222222234,
+        "RMSE": 1.736951352226079,
+        "bias": -0.14888888888888926,
+        "MAPE_percent": 7.144901101521889,
+        "R2_vs_1to1": -1.9874938875305639,
+        "within_10pct": 7,
+        "measured_std": 1.0049261381862238
+      },
+      "H2": {
+        "n": 9,
+        "MAE": 2.0088888888888885,
+        "RMSE": 2.7297334017160804,
+        "bias": -1.8711111111111112,
+        "MAPE_percent": 11.98204524424,
+        "R2_vs_1to1": -0.5482428688692795,
+        "within_10pct": 5,
+        "measured_std": 2.1938184761216775
+      },
+      "CO2": {
+        "n": 9,
+        "MAE": 0.6244444444444441,
+        "RMSE": 0.7848425178198345,
+        "bias": -0.18666666666666665,
+        "MAPE_percent": 6.225009216582168,
+        "R2_vs_1to1": 0.04086505190311529,
+        "within_10pct": 7,
+        "measured_std": 0.8013876853447539
+      },
+      "CH4": {
+        "n": 9,
+        "MAE": 0.14555555555555552,
+        "RMSE": 0.16196707484341785,
+        "bias": -0.1322222222222222,
+        "MAPE_percent": 11.526159026159023,
+        "R2_vs_1to1": -1.4708139534883724,
+        "within_10pct": 3,
+        "measured_std": 0.10304020550550778
+      },
+      "N2": {
+        "n": 9,
+        "MAE": 2.8388888888888886,
+        "RMSE": 3.0747773180436258,
+        "bias": 2.3144444444444443,
+        "MAPE_percent": 5.351565192534073,
+        "R2_vs_1to1": -0.6615923884742227,
+        "within_10pct": 8,
+        "measured_std": 2.38534621034555
+      },
+      "LHV": {
+        "n": 9,
+        "MAE": 0.3047777777777778,
+        "RMSE": 0.3592144206459425,
+        "bias": -0.2676666666666667,
+        "MAPE_percent": 6.518376240748915,
+        "R2_vs_1to1": -1.2076403897269183,
+        "within_10pct": 7,
+        "measured_std": 0.24176286718728607
+      }
+    },
+    "stats_excl_run7": {
+      "CO": {
+        "n": 8,
+        "MAE": 1.410000000000001,
+        "RMSE": 1.7621932357150858,
+        "bias": 0.022499999999999964,
+        "MAPE_percent": 7.043249341306365,
+        "R2_vs_1to1": -1.8246276293348491,
+        "within_10pct": 6,
+        "measured_std": 1.048510848775539
+      },
+      "H2": {
+        "n": 8,
+        "MAE": 2.2125000000000004,
+        "RMSE": 2.8922007191756247,
+        "bias": -2.0575,
+        "MAPE_percent": 13.173349286866776,
+        "R2_vs_1to1": -0.5490864897711158,
+        "within_10pct": 4,
+        "measured_std": 2.3237563878341465
+      },
+      "CO2": {
+        "n": 8,
+        "MAE": 0.6849999999999996,
+        "RMSE": 0.8309783390678721,
+        "bias": -0.1924999999999999,
+        "MAPE_percent": 6.849626596725114,
+        "R2_vs_1to1": -0.32793269230769084,
+        "within_10pct": 6,
+        "measured_std": 0.7211102550927979
+      },
+      "CH4": {
+        "n": 8,
+        "MAE": 0.15624999999999997,
+        "RMSE": 0.17047727121232314,
+        "bias": -0.15624999999999997,
+        "MAPE_percent": 12.285110722610721,
+        "R2_vs_1to1": -1.952380952380953,
+        "within_10pct": 2,
+        "measured_std": 0.09921567416492211
+      },
+      "N2": {
+        "n": 8,
+        "MAE": 2.946249999999999,
+        "RMSE": 3.1852766755809445,
+        "bias": 2.3562499999999993,
+        "MAPE_percent": 5.5526469474609454,
+        "R2_vs_1to1": -0.6144783689706605,
+        "within_10pct": 7,
+        "measured_std": 2.5068655727820746
+      },
+      "LHV": {
+        "n": 8,
+        "MAE": 0.31662500000000005,
+        "RMSE": 0.37370024752467074,
+        "bias": -0.2748750000000001,
+        "MAPE_percent": 6.7468431390578525,
+        "R2_vs_1to1": -1.1488209724573024,
+        "within_10pct": 6,
+        "measured_std": 0.2549313633117747
+      }
+    }
+  },
+  "fig5": {
+    "dataset": "Figure 5 (axial gas temperature, AFR 2.20)",
+    "comparison": [
+      {
+        "z_cm": 4.0,
+        "T_meas_K": 1252.0,
+        "T_sim_K": 1373.6,
+        "Error_K": 121.6,
+        "T_Jayah_model_K": 1200.5,
+        "Jayah_error_K": -51.5
+      },
+      {
+        "z_cm": 8.0,
+        "T_meas_K": 1273.0,
+        "T_sim_K": 1230.3,
+        "Error_K": -42.7,
+        "T_Jayah_model_K": 1085.3,
+        "Jayah_error_K": -187.7
+      },
+      {
+        "z_cm": 11.9,
+        "T_meas_K": 1185.0,
+        "T_sim_K": 1119.3,
+        "Error_K": -65.7,
+        "T_Jayah_model_K": 1039.4,
+        "Jayah_error_K": -145.6
+      },
+      {
+        "z_cm": 15.9,
+        "T_meas_K": 1167.0,
+        "T_sim_K": 1008.5,
+        "Error_K": -158.5,
+        "T_Jayah_model_K": 1007.7,
+        "Jayah_error_K": -159.3
+      },
+      {
+        "z_cm": 19.8,
+        "T_meas_K": 1025.0,
+        "T_sim_K": 899.3,
+        "Error_K": -125.7,
+        "T_Jayah_model_K": 982.6,
+        "Jayah_error_K": -42.4
+      },
+      {
+        "z_cm": 24.1,
+        "T_meas_K": 824.0,
+        "T_sim_K": 782.0,
+        "Error_K": -42.0,
+        "T_Jayah_model_K": 961.0,
+        "Jayah_error_K": 137.0
+      }
+    ],
+    "MAE_K": 92.7,
+    "RMSE_K": 103.0,
+    "bias_K": -52.2,
+    "Jayah_MAE_K": 120.6,
+    "Jayah_RMSE_K": 132.3
+  },
+  "wgs_sensitivity_calibration_case": {
+    "slow_wgs_a=2.78e-3": {
+      "CO": 18.7,
+      "H2": 15.65,
+      "CO2": 10.72,
+      "CH4": 1.14,
+      "N2": 53.78
+    },
+    "fast_wgs_a=2.78e3": {
+      "CO": 9.04,
+      "H2": 22.75,
+      "CO2": 18.04,
+      "CH4": 1.04,
+      "N2": 49.13
+    }
+  },
+  "table7": {
+    "chip_size_cm": [
+      {
+        "eff_22cm": 63.65,
+        "ultimate_eff": 63.65,
+        "z_at_ultimate_cm": 20.17,
+        "optimum_length_cm": 9.89,
+        "eff_at_optimum": 63.33,
+        "value": 1.0,
+        "u_wall": 114.4,
+        "wall_loss_22cm_percent": 12.81
+      },
+      {
+        "eff_22cm": 54.62,
+        "ultimate_eff": 54.62,
+        "z_at_ultimate_cm": 21.67,
+        "optimum_length_cm": 11.4,
+        "eff_at_optimum": 54.35,
+        "value": 3.0,
+        "u_wall": 114.4,
+        "wall_loss_22cm_percent": 14.04
+      },
+      {
+        "eff_22cm": 50.46,
+        "ultimate_eff": 50.46,
+        "z_at_ultimate_cm": 22.17,
+        "optimum_length_cm": 12.02,
+        "eff_at_optimum": 50.21,
+        "value": 5.0,
+        "u_wall": 114.4,
+        "wall_loss_22cm_percent": 14.58
+      }
+    ],
+    "moisture_content_percent_db": [
+      {
+        "eff_22cm": 62.78,
+        "ultimate_eff": 62.78,
+        "z_at_ultimate_cm": 20.67,
+        "optimum_length_cm": 10.78,
+        "eff_at_optimum": 62.46,
+        "value": 0.0,
+        "u_wall": 114.4,
+        "wall_loss_22cm_percent": 14.16
+      },
+      {
+        "eff_22cm": 54.62,
+        "ultimate_eff": 54.62,
+        "z_at_ultimate_cm": 21.67,
+        "optimum_length_cm": 11.4,
+        "eff_at_optimum": 54.35,
+        "value": 15.0,
+        "u_wall": 114.4,
+        "wall_loss_22cm_percent": 14.04
+      },
+      {
+        "eff_22cm": 47.12,
+        "ultimate_eff": 47.12,
+        "z_at_ultimate_cm": 22.17,
+        "optimum_length_cm": 11.71,
+        "eff_at_optimum": 46.88,
+        "value": 30.0,
+        "u_wall": 114.4,
+        "wall_loss_22cm_percent": 13.8
+      }
+    ],
+    "heat_loss_percent_input_energy": [
+      {
+        "eff_22cm": 66.1,
+        "ultimate_eff": 66.42,
+        "z_at_ultimate_cm": 38.83,
+        "optimum_length_cm": 21.91,
+        "eff_at_optimum": 66.09,
+        "value": 5.0,
+        "u_wall": 35.4,
+        "wall_loss_22cm_percent": 5.0
+      },
+      {
+        "eff_22cm": 58.82,
+        "ultimate_eff": 58.83,
+        "z_at_ultimate_cm": 26.83,
+        "optimum_length_cm": 14.55,
+        "eff_at_optimum": 58.53,
+        "value": 10.0,
+        "u_wall": 75.64,
+        "wall_loss_22cm_percent": 10.0
+      },
+      {
+        "eff_22cm": 53.74,
+        "ultimate_eff": 53.74,
+        "z_at_ultimate_cm": 20.5,
+        "optimum_length_cm": 10.8,
+        "eff_at_optimum": 53.48,
+        "value": 15.0,
+        "u_wall": 124.9,
+        "wall_loss_22cm_percent": 15.0
+      }
+    ],
+    "throat_angle_degrees": [
+      {
+        "eff_22cm": 57.33,
+        "ultimate_eff": 57.34,
+        "z_at_ultimate_cm": 13.5,
+        "optimum_length_cm": 7.78,
+        "eff_at_optimum": 57.05,
+        "value": 30.0,
+        "u_wall": 114.4,
+        "wall_loss_22cm_percent": 20.89
+      },
+      {
+        "eff_22cm": 54.62,
+        "ultimate_eff": 54.62,
+        "z_at_ultimate_cm": 21.67,
+        "optimum_length_cm": 11.4,
+        "eff_at_optimum": 54.35,
+        "value": 61.0,
+        "u_wall": 114.4,
+        "wall_loss_22cm_percent": 14.04
+      },
+      {
+        "eff_22cm": 51.64,
+        "ultimate_eff": 51.73,
+        "z_at_ultimate_cm": 50.0,
+        "optimum_length_cm": 17.61,
+        "eff_at_optimum": 51.47,
+        "value": 90.0,
+        "u_wall": 114.4,
+        "wall_loss_22cm_percent": 7.82
+      }
+    ],
+    "air_temperature_k": [
+      {
+        "eff_22cm": 54.62,
+        "ultimate_eff": 54.62,
+        "z_at_ultimate_cm": 21.67,
+        "optimum_length_cm": 11.4,
+        "eff_at_optimum": 54.35,
+        "value": 300.0,
+        "u_wall": 114.4,
+        "wall_loss_22cm_percent": 14.04
+      },
+      {
+        "eff_22cm": 59.99,
+        "ultimate_eff": 59.99,
+        "z_at_ultimate_cm": 21.67,
+        "optimum_length_cm": 11.48,
+        "eff_at_optimum": 59.69,
+        "value": 450.0,
+        "u_wall": 114.4,
+        "wall_loss_22cm_percent": 14.21
+      },
+      {
+        "eff_22cm": 65.93,
+        "ultimate_eff": 65.93,
+        "z_at_ultimate_cm": 21.5,
+        "optimum_length_cm": 11.49,
+        "eff_at_optimum": 65.6,
+        "value": 600.0,
+        "u_wall": 114.4,
+        "wall_loss_22cm_percent": 14.33
+      }
+    ]
+  },
+  "sweeps": {
+    "afr": [
+      {
+        "value": 1.8,
+        "lhv": 4.431,
+        "cge": 46.604,
+        "t_exit": 778.242,
+        "t_throat": 1385.379,
+        "flow": 38.344,
+        "CO": 17.945,
+        "H2": 16.22,
+        "CO2": 11.228,
+        "xc": 0.11
+      },
+      {
+        "value": 1.9,
+        "lhv": 4.388,
+        "cge": 47.839,
+        "t_exit": 800.027,
+        "t_throat": 1442.812,
+        "flow": 39.747,
+        "CO": 18.597,
+        "H2": 15.135,
+        "CO2": 10.711,
+        "xc": 0.18
+      },
+      {
+        "value": 2.0,
+        "lhv": 4.379,
+        "cge": 49.666,
+        "t_exit": 818.304,
+        "t_throat": 1497.922,
+        "flow": 41.346,
+        "CO": 19.311,
+        "H2": 14.306,
+        "CO2": 10.207,
+        "xc": 0.265
+      },
+      {
+        "value": 2.1,
+        "lhv": 4.394,
+        "cge": 51.956,
+        "t_exit": 833.89,
+        "t_throat": 1550.8,
+        "flow": 43.102,
+        "CO": 20.039,
+        "H2": 13.685,
+        "CO2": 9.733,
+        "xc": 0.36
+      },
+      {
+        "value": 2.2,
+        "lhv": 4.426,
+        "cge": 54.622,
+        "t_exit": 847.308,
+        "t_throat": 1601.554,
+        "flow": 44.989,
+        "CO": 20.756,
+        "H2": 13.231,
+        "CO2": 9.296,
+        "xc": 0.465
+      },
+      {
+        "value": 2.3,
+        "lhv": 4.47,
+        "cge": 57.622,
+        "t_exit": 858.806,
+        "t_throat": 1650.302,
+        "flow": 46.991,
+        "CO": 21.454,
+        "H2": 12.914,
+        "CO2": 8.894,
+        "xc": 0.577
+      },
+      {
+        "value": 2.4,
+        "lhv": 4.526,
+        "cge": 60.965,
+        "t_exit": 868.328,
+        "t_throat": 1697.168,
+        "flow": 49.105,
+        "CO": 22.141,
+        "H2": 12.714,
+        "CO2": 8.517,
+        "xc": 0.697
+      },
+      {
+        "value": 2.5,
+        "lhv": 4.597,
+        "cge": 64.757,
+        "t_exit": 875.207,
+        "t_throat": 1742.27,
+        "flow": 51.356,
+        "CO": 22.85,
+        "H2": 12.627,
+        "CO2": 8.146,
+        "xc": 0.828
+      },
+      {
+        "value": 2.6,
+        "lhv": 4.716,
+        "cge": 69.792,
+        "t_exit": 875.061,
+        "t_throat": 1785.723,
+        "flow": 53.949,
+        "CO": 23.774,
+        "H2": 12.748,
+        "CO2": 7.685,
+        "xc": 0.988
+      }
+    ],
+    "feed": [
+      {
+        "value": 12.0,
+        "lhv": 4.38,
+        "cge": 53.785,
+        "t_exit": 668.912,
+        "t_throat": 1601.554,
+        "flow": 28.883,
+        "CO": 20.497,
+        "H2": 13.088,
+        "CO2": 9.419,
+        "xc": 0.446
+      },
+      {
+        "value": 14.0,
+        "lhv": 4.395,
+        "cge": 54.061,
+        "t_exit": 733.542,
+        "t_throat": 1601.554,
+        "flow": 33.751,
+        "CO": 20.583,
+        "H2": 13.135,
+        "CO2": 9.378,
+        "xc": 0.452
+      },
+      {
+        "value": 16.0,
+        "lhv": 4.409,
+        "cge": 54.316,
+        "t_exit": 788.256,
+        "t_throat": 1601.554,
+        "flow": 38.631,
+        "CO": 20.662,
+        "H2": 13.179,
+        "CO2": 9.341,
+        "xc": 0.458
+      },
+      {
+        "value": 18.0,
+        "lhv": 4.422,
+        "cge": 54.553,
+        "t_exit": 834.739,
+        "t_throat": 1601.554,
+        "flow": 43.52,
+        "CO": 20.735,
+        "H2": 13.219,
+        "CO2": 9.306,
+        "xc": 0.463
+      },
+      {
+        "value": 20.0,
+        "lhv": 4.435,
+        "cge": 54.776,
+        "t_exit": 874.482,
+        "t_throat": 1601.554,
+        "flow": 48.419,
+        "CO": 20.804,
+        "H2": 13.257,
+        "CO2": 9.274,
+        "xc": 0.468
+      },
+      {
+        "value": 22.0,
+        "lhv": 4.446,
+        "cge": 54.985,
+        "t_exit": 908.716,
+        "t_throat": 1601.554,
+        "flow": 53.326,
+        "CO": 20.868,
+        "H2": 13.293,
+        "CO2": 9.244,
+        "xc": 0.473
+      },
+      {
+        "value": 24.0,
+        "lhv": 4.457,
+        "cge": 55.182,
+        "t_exit": 938.429,
+        "t_throat": 1601.554,
+        "flow": 58.241,
+        "CO": 20.928,
+        "H2": 13.326,
+        "CO2": 9.215,
+        "xc": 0.478
+      }
+    ]
+  },
+  "balances": {
+    "elements": {
+      "C": {
+        "in_mol_s": 0.21766158798878807,
+        "out_mol_s": 0.2176615879887881,
+        "error_percent": 1.2751710520948063e-14
+      },
+      "H": {
+        "in_mol_s": 0.4174866127874038,
+        "out_mol_s": 0.4174866127874037,
+        "error_percent": -2.659302096449531e-14
+      },
+      "O": {
+        "in_mol_s": 0.3425839520493762,
+        "out_mol_s": 0.34258395204937614,
+        "error_percent": -1.620366362731932e-14
+      },
+      "N": {
+        "in_mol_s": 0.620666388208989,
+        "out_mol_s": 0.620666388208989,
+        "error_percent": 0.0
+      }
+    },
+    "energy": {
+      "H_in_W": -36647.286530923506,
+      "H_out_W": -50591.2353211811,
+      "wall_loss_W": 14010.664876431025,
+      "residual_W": -66.7160861734319,
+      "residual_percent_of_feed_HHV": -0.06588158608304664,
+      "sensible_enthalpy_in_W": 32219.681327828053
+    }
+  },
+  "runtime_s": 28.9
+}
